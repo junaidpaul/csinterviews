@@ -2,6 +2,5 @@ output/
 deployS3.sh
 develop_server.sh
 Makefile
-pelicanconf.py
 pelicanconf.pyc
 publishconf.py
