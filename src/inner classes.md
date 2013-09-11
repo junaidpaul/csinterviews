@@ -8,7 +8,7 @@ date: 2013-09-09 3:3:3
 
 <p>Non-static inner classes are treated just like a normal member variable in a class and have full access to other member variables and methods within the enclosing class. </p> 
 
-<p>A static inner class does not have direct access to other members or methods of the enclosing class.  Nested classes can also be declared as public, private, protected, ad package private.</p>
+<p>A static inner class does not have direct access to other members or methods of the enclosing class.  Nested classes can also be declared as public, private, protected, and package private.</p>
 
 <h2>Example</h2>
 <p></p>
