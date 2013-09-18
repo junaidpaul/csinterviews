@@ -29,6 +29,7 @@ date: 2013-09-09 3:3:3
 		//Private non-static inner class
 		//Don't need to pollute package with with class that is used only in Dog
 		private class BarkImpl implements Bark {
+			@Override
 			public void makeSound() {
 				System.out.println("Woof.");
 			}
