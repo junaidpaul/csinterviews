@@ -50,4 +50,4 @@ TRANSLATION_FEED_ATOM = None
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('github', 'http://github.com/trevor-e/csinterviews'),)
+SOCIAL = (('github', 'http://github.com/trevor-e/csinterviews'),('facebook','https://www.facebook.com/ComputerScienceInterviews'),)
