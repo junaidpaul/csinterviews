@@ -52,5 +52,5 @@ Doing a simple benchmark where we reversed 20 million String objects with each v
 
 <p>There are actually several reverse methods found in Java which make this question even more trivial, but I'll leave finding those to you. :)
 <p>
-The solution will run in O(n) time because it has to walk the length of the String.
+The solution will run in $O(n)$ time because it has to walk the length of the String.
 </p>

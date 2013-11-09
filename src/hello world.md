@@ -7,9 +7,6 @@ description: Welcome to our site!
 	:::java
 	public class HelloWorld {
 
-	  /**
-	   * @param args Command line arguments
-	   */
 	  public static void main(String[] args) {
 	    System.out.println("Hello World!");
 	  }

@@ -1,7 +1,7 @@
 layout: default_post
 title: Separating Negatives, Positives, and Zeroes
 category: Technical
-date: 2013-05-05 4:4:4
+date: 2013-05-05 4:4:5
 description: Learn how to separate the positives, negatives, and zeroes in a list of numbers in just one pass.
 
 <h2>The question</h2>
@@ -59,6 +59,6 @@ description: Learn how to separate the positives, negatives, and zeroes in a lis
 <p>Because integer arrays are initialized by default to 0, we do not need to check for entries being equal to 0.  They are accounted for by whatever leftover spaces there are.</p>
 
 <h2>Inspection</h2>
-<p>The first algorithm will run in <code>O(3n)</code> time while the second runs in <code>O(n)</code> time, simply due to the number of loops each method has.  Both solutions have the same asymptotic runtime because they only differ by a constant factor, however, the second solution is still a better implementation.</p>
+<p>The first algorithm will run in $O(3n)$ time while the second runs in $O(n)$ time, simply due to the number of loops each method has.  Both solutions have the same asymptotic runtime because they only differ by a constant factor, however, the second solution is still a better implementation.</p>
 
 <p>This question seems simple, but allows the interviewer valuable insight to your thinking.  It's easy to arrive at the first solution and call it a day.  A top candidate will recognize the quicker solution.</p>

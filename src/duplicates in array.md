@@ -29,7 +29,7 @@ description: Learn how to quickly check for duplicates in an array.
 
 <p>Note that such a method would likely take an integer array as a parameter and return a boolean value.  I took a shortcut for clarity and hard-coded an array into the method.</p>
 
-<p>This approach certainly works fine for detecting duplicates.  The problem here is that it does not scale well.  As a computer scientist, you should always be thinking BIG.  If you can't tell from a quick inspection, this algorithm will run in O(n^2) time due to the nested second loop.  This means that as the input array grows, the algorithm will take exponentially longer to complete.</p>
+<p>This approach certainly works fine for detecting duplicates.  The problem here is that it does not scale well.  As a computer scientist, you should always be thinking BIG.  If you can't tell from a quick inspection, this algorithm will run in $O(n^2)$ time due to the nested second loop.  This means that as the input array grows, the algorithm will take exponentially longer to complete.</p>
 
 <h2>The Better Solution</h2>
 <p>Take a look at this solution and notice the difference.</p>
@@ -53,6 +53,6 @@ description: Learn how to quickly check for duplicates in an array.
 	  System.out.println("No duplicates found.");
 	}
 
-<p>In this solution, we replaced the nested second for loop with a HashMap.  If you remember your data structures, a HashMap has roughly O(1) performance for retrieving and storing key/value pairs.  This code loops through the array and at each iteration checks if the value at the current index is in the HashMap.  If it already exists in the HashMap, then that means a duplicate was found.  This algorithm only takes O(n) time compared to O(n^2) time with the naive approach because the main loop is O(n) and nothing inside the main loop is greater than O(1).</p>
+<p>In this solution, we replaced the nested second for loop with a HashMap.  If you remember your data structures, a HashMap has roughly $O(1)$ performance for retrieving and storing key/value pairs.  This code loops through the array and at each iteration checks if the value at the current index is in the HashMap.  If it already exists in the HashMap, then that means a duplicate was found.  This algorithm only takes $O(n)$ time compared to $O(n^2)$ time with the naive approach because the main loop is $O(n)$ and nothing inside the main loop is greater than $O(1)$.</p>
 
 <p>One thing I'd like to point out is that this approach will use more memory to store all of the objects associated with the HashMap.  In general, this is a trade-off that you as a programmer should try to make.  Reducing an algorithm down by orders of magnitude can have a tremendous effect on how long it takes to run.  For large data sets that can translate into hours and days.  Memory is a lot cheaper to come by than extra processors should you ever find yourself working on a program that large!</p>

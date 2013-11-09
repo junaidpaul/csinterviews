@@ -54,5 +54,5 @@ It turns out that we can reverse the list in a single walk of the linked list.  
 First, the newRoot variable is created which will be what we return.  For the iteration, we create a temporary node to help do the reversal.  After we swap the next pointers for the Nodes, we set our variables to the next Nodes to be processed to allow us to continue iterating correctly.  By the end, the newRoot variable will be the front of the new list.
 </p>
 <p>
-The key benefits of this algorithm are that it runs in O(n) time and does not use any significant amount of memory because it is modifying the linked list directly.
+The key benefits of this algorithm are that it runs in $O(n)$ time and does not use any significant amount of memory because it is modifying the linked list directly.
 </p>
